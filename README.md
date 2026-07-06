@@ -2,6 +2,25 @@
 
 A TeuxDeux-style weekly to-do app that installs like a real app on your iPhone and Mac, works offline, syncs both ways, and keeps your to-dos behind your email + password. Total setup: ~10 minutes, $0.
 
+## What's new in this version
+
+- **Choose how many days you see.** On a computer, the 1 / 3 / 5 / 7 buttons at the top set how many day-columns show at once. Columns always fill the width evenly — you'll never see a half-cut column on the edge. The arrows move forward/back by that same number of days.
+- **Phone view is one day at a time.** On a phone you see a single day plus a row of date bubbles across the top of the day area (like TeuxDeux). Tap a bubble to jump to that day. A small dot on a bubble means that day has unfinished to-dos.
+- **Drag a to-do to move it.** Press and hold a to-do for a moment, then drag it. On a computer, drop it on another day-column. On a phone, drop it on any date bubble. Let go and it moves to that day. (A quick tap still opens it for editing; a slow press-and-drag moves it.)
+- **Checkbox on the left.** Tap the box to the left of any to-do to check it off.
+- **Formatting + notes.** Tap a to-do to open it. Select some text and tap **B**, *i*, or strikethrough to style it. There's also a Notes box for longer details — if a to-do has notes, a short preview shows under it in the list.
+- **8 themes with custom accent color.** Settings (gear icon) → **Appearance**. Pick a light or dark theme, then pick any accent color. Your choice syncs to your other device.
+
+### 60-second check that columns scale cleanly (optional)
+
+If you want to confirm the "no half-columns" behavior yourself in Chrome on your Mac:
+
+1. Open your app, press **Cmd+Option+I** to open DevTools.
+2. Click the little phone/tablet icon (top-left of DevTools) to turn on device toolbar.
+3. Drag the screen width left and right using the handles at the edges of the page.
+4. Watch the day-columns: at any width, whole columns fill the space edge-to-edge — no column is ever sliced off on the right. Below ~720px wide it switches to the single-day phone view with date bubbles.
+5. Press the same phone/tablet icon again to turn it off.
+
 ## 1. Host it on GitHub Pages (3 min)
 
 1. Go to https://github.com/new — name the repo (e.g. `weekly`), keep it **Public**, click Create.
